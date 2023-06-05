@@ -81,7 +81,7 @@ function getCommandFiles(directory) {
 }
 
 client.on('guildMemberAdd', async member => {
-    const welcomeMessage = `Olá, ${member.user.username}! Bem-vindo(a) ao servidor **${member.guild.name}**!`;
+    const welcomeMessage = `Olá, **${member.user.username}**! Bem-vindo(a) ao servidor **${member.guild.name}**!`;
     const serverName = member.guild.name;
 
     // Verificar se o usuário permite mensagens diretas
